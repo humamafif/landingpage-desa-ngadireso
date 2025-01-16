@@ -5,10 +5,9 @@ export default function Navbar() {
             <div className="container mx-auto px-4 py-2 flex justify-between items-center">
                 <Logo />
                 <ul className="hidden space-x-10 lg:flex text-lg font-bold text-white text-shadow-md mr-8">
-                    <li><a href="#" className="hover:text-gray-300">Home</a></li>
-                    <li><a href="#about" className="hover:text-gray-300">About</a></li>
-                    <li><a href="#news" className="hover:text-gray-300">News</a></li>
-                    <li><a href="#contact" className="hover:text-gray-300">Contact</a></li>
+                    <li><a href="#" className="hover:text-gray-300">Beranda</a></li>
+                    <li><a href="#about" className="hover:text-gray-300">Tentang</a></li>
+                    <li><a href="#news" className="hover:text-gray-300">Berita</a></li>
                 </ul>
             </div>
         </nav>
