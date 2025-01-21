@@ -14,4 +14,4 @@ export default function Card({ src, title, description }) {
             </div>
         </div>
     )
-}
+}   
