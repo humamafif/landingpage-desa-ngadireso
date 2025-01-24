@@ -7,6 +7,7 @@ export default function Navbar() {
                 <ul className="hidden space-x-10 lg:flex text-lg font-bold text-white text-shadow-md mr-8">
                     <li><a href="#" className="hover:text-gray-300">Beranda</a></li>
                     <li><a href="#about" className="hover:text-gray-300">Tentang</a></li>
+                    <li><a href="#umkm" className="hover:text-gray-300">UMKM</a></li>
                     <li><a href="#news" className="hover:text-gray-300">Berita</a></li>
                 </ul>
             </div>
