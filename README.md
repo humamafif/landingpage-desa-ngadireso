@@ -69,4 +69,4 @@ landingpage-desa-ngadireso/
 
 ## 🔎 Website
 
-Silahkan akses ngadireso.my.id untuk melihat live preview nya!
+Silahkan akses [ngadireso.my.id](https://ngadireso.my.id) untuk melihat live preview nya!
