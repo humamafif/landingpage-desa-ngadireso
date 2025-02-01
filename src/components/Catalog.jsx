@@ -1,14 +1,14 @@
 import { useState } from 'react';
-import data from "../core/data";
+import data from "../data/catalog";
 import Card from "./Card";
 import Modal from './Modal';
 
 export default function Catalog() {
     const [isPopupVisible, setIsPopupVisible] = useState(false);
-    const [popupData, setPopupData] = useState({ src: '', title: '', description: '' });
+    const [popupData, setPopupData] = useState({ src: '', title: '', description: '', gmapsLink: '' });
 
-    const handleCardClick = (src, title, description) => {
-        setPopupData({ src, title, description });
+    const handleCardClick = (src, title, description, gmapsLink) => {
+        setPopupData({ src, title, description, gmapsLink });
         setIsPopupVisible(true);
     };
 
@@ -17,9 +17,9 @@ export default function Catalog() {
     };
 
     return (
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-8 w-screen lg:px-14">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-8 w-screen lg:px-14 px-6">
             {data.slice(0, 4).map((card, index) => (
-                <div key={index} onClick={() => handleCardClick(card.src, card.title, card.description)}>
+                <div key={index} onClick={() => handleCardClick(card.src, card.title, card.description, card.gmapsLink)}>
                     <Card
                         src={card.src}
                         title={card.title}
@@ -34,6 +34,7 @@ export default function Catalog() {
                 src={popupData.src}
                 title={popupData.title}
                 description={popupData.description}
+                gmapsLink={popupData.gmapsLink}
             />
         </div>
     );
