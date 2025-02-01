@@ -1,6 +1,6 @@
 export default function Card({ src, title, description, isDescriptionVisible }) {
     return (
-        <div className="relative group overflow-hidden rounded-xl w-full h-60 lg:h-112">
+        <div className="relative group overflow-hidden rounded-xl w-full h-60 lg:h-112 hover:cursor-pointer">
             <img
                 className="w-full h-full object-cover transition-transform duration-300 ease-in-out transform group-hover:scale-110"
                 src={src} alt={title} />
