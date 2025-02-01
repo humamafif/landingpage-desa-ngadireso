@@ -1,22 +1,22 @@
-# Ngadireso Village Landing Page
+# 🌾 Ngadireso Village Landing Page
 
 The official landing page for Ngadireso Village, developed using Vite, React, and Tailwind CSS. This website is designed to provide information about the village, including the latest news, potential SMEs, and various other interesting features.
 
 ## 🚀 Main Features
 
-- **Catalog:** Displays several tourist spots in Ngadireso Village.
-- **Latest News:** Easy access to read the latest news about Ngadireso Village.
-- **SME Information:** Showcases the potential of SMEs in the village with an attractive display.
-- **Interactive Carousel:** Uses **react-slick** to dynamically display images and information.
-- **Text Animation:** Uses **react-type-animation** for eye-catching moving text effects.
+- 📸 **Catalog:** Displays several tourist spots in Ngadireso Village.
+- 📰 **Latest News:** Easy access to read the latest news about Ngadireso Village.
+- 🏢 **SME Information:** Showcases the potential of SMEs in the village with an attractive display.
+- 🎠 **Interactive Carousel:** Uses **react-slick** to dynamically display images and information.
+- ✨ **Text Animation:** Uses **react-type-animation** for eye-catching moving text effects.
 
 ## 🛠️ Technologies Used
 
-- **Vite** - A build tool for fast frontend development.
-- **React** - A JavaScript library for building user interfaces.
-- **Tailwind CSS** - A CSS framework for responsive and modern styling.
-- **react-slick** - A carousel library for interactive sliders.
-- **react-type-animation** - A text animation library for dynamic effects.
+- ⚡ **Vite** - A build tool for fast frontend development.
+- ⚛️ **React** - A JavaScript library for building user interfaces.
+- 🎨 **Tailwind CSS** - A CSS framework for responsive and modern styling.
+- 🎢 **react-slick** - A carousel library for interactive sliders.
+- 🖋️ **react-type-animation** - A text animation library for dynamic effects.
 
 ## 📦 Installation
 
