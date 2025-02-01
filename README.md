@@ -1,54 +1,54 @@
-# Landing Page Desa Ngadireso
+# Ngadireso Village Landing Page
 
-Landing page resmi untuk Desa Ngadireso yang dikembangkan menggunakan Vite, React, dan Tailwind CSS. Website ini dirancang untuk memberikan informasi seputar desa, termasuk berita terbaru, potensi UMKM, serta berbagai fitur menarik lainnya.
+The official landing page for Ngadireso Village, developed using Vite, React, and Tailwind CSS. This website is designed to provide information about the village, including the latest news, potential SMEs, and various other interesting features.
 
-## 🚀 Fitur Utama
+## 🚀 Main Features
 
-- **Katalog:** Menampilkan beberapa spot untuk wisata yang ada di Desa Ngadireso.
-- **Berita Terkini:** Akses mudah untuk membaca berita terbaru seputar Desa Ngadireso.
-- **Informasi UMKM:** Menampilkan potensi UMKM di desa dengan tampilan yang menarik.
-- **Carousel Interaktif:** Menggunakan **react-slick** untuk menampilkan gambar dan informasi secara dinamis.
-- **Teks Animasi:** Menggunakan **react-type-animation** untuk efek teks bergerak yang menarik perhatian.
+- **Catalog:** Displays several tourist spots in Ngadireso Village.
+- **Latest News:** Easy access to read the latest news about Ngadireso Village.
+- **SME Information:** Showcases the potential of SMEs in the village with an attractive display.
+- **Interactive Carousel:** Uses **react-slick** to dynamically display images and information.
+- **Text Animation:** Uses **react-type-animation** for eye-catching moving text effects.
 
-## 🛠️ Teknologi yang Digunakan
+## 🛠️ Technologies Used
 
-- **Vite** - Build tool untuk pengembangan frontend yang cepat.
-- **React** - Library JavaScript untuk membangun antarmuka pengguna.
-- **Tailwind CSS** - Framework CSS untuk styling yang responsif dan modern.
-- **react-slick** - Library carousel untuk menampilkan slider interaktif.
-- **react-type-animation** - Library animasi teks untuk efek dinamis.
+- **Vite** - A build tool for fast frontend development.
+- **React** - A JavaScript library for building user interfaces.
+- **Tailwind CSS** - A CSS framework for responsive and modern styling.
+- **react-slick** - A carousel library for interactive sliders.
+- **react-type-animation** - A text animation library for dynamic effects.
 
-## 📦 Instalasi
+## 📦 Installation
 
-1. **Clone repository ini:**
+1. **Clone this repository:**
    ```bash
    git clone https://github.com/humamafif/landingpage-desa-ngadireso.git
    ```
 
-2. **Masuk ke folder proyek:**
+2. **Navigate to the project folder:**
    ```bash
    cd landingpage-desa-ngadireso
    ```
 
-3. **Instal dependensi:**
+3. **Install dependencies:**
    ```bash
    npm install
    ```
 
-4. **Jalankan proyek:**
+4. **Run the project:**
    ```bash
    npm run dev
    ```
 
-## ⚙️ Build untuk Produksi
+## ⚙️ Build for Production
 
-Untuk membangun proyek dalam mode produksi:
+To build the project in production mode:
 
 ```bash
 npm run build
 ```
 
-## 📄 Struktur Folder
+## 📄 Folder Structure
 
 ```
 landingpage-desa-ngadireso/
@@ -69,4 +69,4 @@ landingpage-desa-ngadireso/
 
 ## 🔎 Website
 
-Silahkan akses [ngadireso.my.id](https://ngadireso.my.id) untuk melihat live preview nya!
+Please visit [ngadireso.my.id](https://ngadireso.my.id) to see the live preview!
